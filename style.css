@@ -1,0 +1,34 @@
+/*styling every page*/
+body{background: #000000;;}
+p{font-family: 'Montserrat', sans-serif;}
+table{border-color: white;
+background: black;}
+.picture{height: 100px; length: 100px;}
+h1, h3{font-family: 'Open Sans', sans-serif; color: #57657f; }
+a{color: #E80207;}
+th{color: #E89A02;}
+#club{color: #00A1E4}
+#bell{color: #E80207}
+h1:hover{color:blue}
+h3{text-transform: uppercase;}
+a{font-size 16px; font-style: italic;}
+/*class and id styling*/
+.header{border-style: solid; background-color: SeaShell}
+.content{background-color: SeaShell; height: 80%; width: 70%;}
+.footer{background-color: SeaShell;}
+.job-title{font-weight: bold; color: maroon;}
+.border{border: 5px solid black;}
+.border3{border: 5px groove red;}
+.border2{border:5px black; border-style: dotted double double}
+.bar{ background-color: black; border: 5px solid #109709}
+.description{}
+.grunkusamonkus{opacity: 0.5; color:;   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f89), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f1), color-stop(0.9, #f89), color-stop(1, #f89) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #f89), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f89) ); color:transparent; -webkit-background-clip: text; background-clip: text;}
+.grunkusamonkus:hover{opacity:1; font-size: 100px}
+.grunkusamonkus:hover::after{content: "   good job";}
+.sneaky{opacity:0;}
+.sneaky:hover{opacity:1}
+#hi{color:red}
+.hh{width:100%;;}
+img{transition: height 2s, filter 1s;}
+img.mh:hover{height:130%; filter: brightness(150%);}
